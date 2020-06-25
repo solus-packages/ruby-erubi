@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>ruby-erubi</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">Erubi is a ERB template engine for ruby. It is a simplified fork of Erubis.</Summary>
+        <Description xml:lang="en">Erubi is a ERB template engine for ruby. It is a simplified fork of Erubis.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-erubi</Name>
+        <Summary xml:lang="en">Erubi is a ERB template engine for ruby. It is a simplified fork of Erubis.</Summary>
+        <Description xml:lang="en">Erubi is a ERB template engine for ruby. It is a simplified fork of Erubis.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/erubi-1.9.0/CHANGELOG</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/erubi-1.9.0/MIT-LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/erubi-1.9.0/README.rdoc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/erubi-1.9.0/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/erubi-1.9.0/lib/erubi.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/erubi-1.9.0/lib/erubi/capture_end.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/erubi-1.9.0/test/test.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/erubi-1.9.0.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-06-26</Date>
+            <Version>1.9</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
+        </Update>
+    </History>
+</PISI>
